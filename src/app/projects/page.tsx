@@ -10,7 +10,7 @@ export default function Projects() {
       description: 'Un serveur IRC moderne et performant, conçu pour une expérience utilisateur optimale.',
       image: '/irc.png',
       tags: ['C++', 'Socket', 'IRC'],
-      github: 'https://github.com/username/irc-serv',
+      github: 'https://github.com/0xAp0stl3/server-irc',
       featured: true
     },
     {

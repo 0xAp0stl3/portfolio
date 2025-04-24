@@ -16,7 +16,7 @@ export default function About() {
             <div className="relative">
               <div className="aspect-square relative rounded-lg overflow-hidden shadow-xl">
                 <Image
-                  src="/profile-placeholder.jpg"
+                  src="/profil.jpeg"
                   alt="Photo de profil"
                   fill
                   style={{ objectFit: "cover" }}
@@ -27,12 +27,11 @@ export default function About() {
             </div>
             
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">Prénom Nom</h2>
-              <p className="text-xl text-blue-600 dark:text-blue-400 mb-6">Développeur Web Full Stack</p>
+              <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">Matthieu</h2>
+              <p className="text-xl text-blue-600 dark:text-blue-400 mb-6">Étudiant 42</p>
               
               <p className="text-gray-700 dark:text-gray-300 mb-4">
-                Bienvenue sur mon portfolio ! Je suis un développeur web passionné avec plus de X années d'expérience
-                dans la création d'applications web modernes et performantes.
+                Bienvenue sur mon portfolio ! Je suis un étudiant passionné par la cybersécurité, la création d'application et plein d'autres choses.
               </p>
               
               <p className="text-gray-700 dark:text-gray-300 mb-6">
@@ -43,11 +42,11 @@ export default function About() {
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <h3 className="font-semibold text-gray-900 dark:text-white mb-2">Email</h3>
-                  <p className="text-gray-700 dark:text-gray-300">contact@example.com</p>
+                  <p className="text-gray-700 dark:text-gray-300">apostlepro1@gmail.com</p>
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 dark:text-white mb-2">Localisation</h3>
-                  <p className="text-gray-700 dark:text-gray-300">Paris, France</p>
+                  <p className="text-gray-700 dark:text-gray-300">Occitanie, France</p>
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 dark:text-white mb-2">Disponibilité</h3>
@@ -55,25 +54,8 @@ export default function About() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 dark:text-white mb-2">Expérience</h3>
-                  <p className="text-gray-700 dark:text-gray-300">X années</p>
+                  <p className="text-gray-700 dark:text-gray-300">2 années</p>
                 </div>
-              </div>
-              
-              <div className="mt-8 flex space-x-4">
-                <a 
-                  href="/cv.pdf" 
-                  className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-md transition-colors"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Télécharger CV
-                </a>
-                <Link 
-                  href="/contact" 
-                  className="px-6 py-3 border border-gray-300 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-900 dark:text-white font-medium rounded-md transition-colors"
-                >
-                  Me contacter
-                </Link>
               </div>
             </div>
           </div>
@@ -126,12 +108,10 @@ export default function About() {
                   
                   <div className="md:w-5/12 mt-6 md:mt-0">
                     <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md">
-                      <span className="text-blue-600 dark:text-blue-400 font-semibold">2020 - 2022</span>
-                      <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-2">Développeur Front-end</h3>
-                      <p className="text-gray-600 dark:text-gray-400">Entreprise ABC</p>
+                      <span className="text-blue-600 dark:text-blue-400 font-semibold">sept 2025 - dec 2025</span>
+                      <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-2">Stage 🚧 En travaux 🚧</h3>
                       <p className="mt-4 text-gray-700 dark:text-gray-300">
-                        Création d'interfaces utilisateur réactives et accessibles avec React et Vue.js.
-                        Optimisation des performances et mise en place de tests automatisés.
+                      🚧 En travaux 🚧
                       </p>
                     </div>
                   </div>
@@ -143,12 +123,13 @@ export default function About() {
                 <div className="md:flex items-center justify-between">
                   <div className="md:w-5/12">
                     <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md">
-                      <span className="text-blue-600 dark:text-blue-400 font-semibold">2017 - 2020</span>
-                      <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-2">Master en Informatique</h3>
-                      <p className="text-gray-600 dark:text-gray-400">Université XYZ</p>
+                      <span className="text-blue-600 dark:text-blue-400 font-semibold">2023 - 2027</span>
+                      <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-2">École 42</h3>
                       <p className="mt-4 text-gray-700 dark:text-gray-300">
-                        Spécialisation en développement web et applications mobiles.
-                        Projet de fin d'études sur les technologies JavaScript modernes.
+                      À l’école 42, on progresse par projets collaboratifs en autonomie, 
+                      sans cours magistraux ni professeurs : on conçoit, code et déploie des applications concrètes tout en s’autoévaluant 
+                      et en évaluant les autres étudiants. On y acquiert ainsi des compétences techniques (algorithmie, architectures logicielles, DevOps) 
+                      et transverses (gestion de projet, communication, résolution de problèmes).
                       </p>
                     </div>
                   </div>

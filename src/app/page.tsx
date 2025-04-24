@@ -34,7 +34,7 @@ export default function Home() {
             <div className="flex justify-center">
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-lg">
                 <Image
-                  src="/profile-placeholder.jpg"
+                  src="/profil.jpeg"
                   alt="Photo de profil"
                   fill
                   style={{ objectFit: "cover" }}
@@ -59,7 +59,7 @@ export default function Home() {
             <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105">
               <div className="relative h-48">
                 <Image
-                  src="/project1-placeholder.jpg"
+                  src="/irc.png"
                   alt="Projet 1"
                   fill
                   style={{ objectFit: "cover" }}
@@ -74,7 +74,7 @@ export default function Home() {
                   <span className="px-2 py-1 bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 text-xs font-medium rounded">IRC</span>
                 </div>
                 <Link 
-                  href="/projects/serveur-irc" 
+                  href="/projects" 
                   className="mt-4 inline-block text-blue-600 dark:text-blue-400 hover:underline"
                 >
                   Voir les détails →
@@ -86,24 +86,20 @@ export default function Home() {
             <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105">
               <div className="relative h-48">
                 <Image
-                  src="/project2-placeholder.jpg"
+                  src="/cub3d.png"
                   alt="Projet 2"
                   fill
                   style={{ objectFit: "cover" }}
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Transandance</h3>
-                <p className="mt-2 text-gray-600 dark:text-gray-300">Un pong multijoueur</p>
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Cub3D</h3>
+                <p className="mt-2 text-gray-600 dark:text-gray-300">Jeu 3D simple</p>
                 <div className="mt-4 flex flex-wrap gap-2">
-                  <span className="px-2 py-1 bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 text-xs font-medium rounded">PHP</span>
-                  <span className="px-2 py-1 bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 text-xs font-medium rounded">Socket</span>
-                  <span className="px-2 py-1 bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 text-xs font-medium rounded">HTML</span>
-                  <span className="px-2 py-1 bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 text-xs font-medium rounded">CSS</span>
-                  <span className="px-2 py-1 bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 text-xs font-medium rounded">JavaScript</span>
+                  <span className="px-2 py-1 bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 text-xs font-medium rounded">C</span>
                 </div>
                 <Link 
-                  href="/projects/transandance" 
+                  href="/projects" 
                   className="mt-4 inline-block text-blue-600 dark:text-blue-400 hover:underline"
                 >
                   Voir les détails →
@@ -115,7 +111,7 @@ export default function Home() {
             <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105">
               <div className="relative h-48">
                 <Image
-                  src="/project3-placeholder.jpg"
+                  src="/meteo.png"
                   alt="Projet 3"
                   fill
                   style={{ objectFit: "cover" }}
@@ -131,7 +127,7 @@ export default function Home() {
                   <span className="px-2 py-1 bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 text-xs font-medium rounded">Geolocation</span>
                 </div>
                 <Link 
-                  href="/projects/weather-app" 
+                  href="/projects" 
                   className="mt-4 inline-block text-blue-600 dark:text-blue-400 hover:underline"
                 >
                   Voir les détails →

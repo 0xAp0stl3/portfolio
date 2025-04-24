@@ -1,7 +1,7 @@
 # 🌐 Portfolio Next.js
 
 Ce projet est un portfolio personnel moderne développé avec [Next.js](https://nextjs.org) et TypeScript.  
-Il présente vos compétences, projets, parcours et permet de vous contacter facilement.
+Il présente mes (ou les votre) compétences, projets, parcours et permet de vous contacter facilement.
 
 ## Fonctionnalités
 

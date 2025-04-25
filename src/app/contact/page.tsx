@@ -102,7 +102,7 @@ export default function Contact() {
                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Email</h3>
                     <p className="mt-1 text-gray-600 dark:text-gray-300">apostlepro1@gmail.com</p>
                     <p className="mt-2 text-gray-600 dark:text-gray-300">
-                      N&apos;hésitez pas à m'envoyer un email à tout moment, je vous répondrai dans les plus brefs délais.
+                      N&apos;hésitez pas à m&apos;envoyer un email à tout moment, je vous répondrai dans les plus brefs délais.
                     </p>
                   </div>
                 </div>

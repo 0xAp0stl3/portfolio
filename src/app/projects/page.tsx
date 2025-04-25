@@ -146,7 +146,7 @@ export default function Projects() {
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">Vous avez un projet en tête ?</h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
             Je suis toujours à la recherche de nouveaux défis et opportunités de collaboration.
-            N'hésitez pas à me contacter pour discuter de votre projet.
+            N&apos;hésitez pas à me contacter pour discuter de votre projet.
           </p>
           <Link 
             href="/contact" 

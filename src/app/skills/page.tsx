@@ -180,7 +180,7 @@ export default function Skills() {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">Travail d&apos;équipe</h3>
               <p className="text-gray-700 dark:text-gray-300">
-                Collaboration efficace au sein d'équipes multidisciplinaires.
+                Collaboration efficace au sein d&apos;équipes multidisciplinaires.
               </p>
             </div>
           </div>

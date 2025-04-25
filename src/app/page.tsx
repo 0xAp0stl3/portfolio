@@ -14,7 +14,7 @@ export default function Home() {
                 Bonjour, je suis <span className="text-blue-600 dark:text-blue-400">Matthieu</span>
               </h1>
               <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-                Étudiant en 2eme année de l'école 42, passionné par la cybersécurité et la programmation.
+                Étudiant en 2eme année de l&apos;école 42, passionné par la cybersécurité et la programmation.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link
@@ -152,7 +152,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white">Mes compétences</h2>
-            <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">Technologies et outils que j'utilise</p>
+            <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">Technologies et outils que j&apos;utilise</p>
           </div>
           
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8">
@@ -183,7 +183,7 @@ export default function Home() {
       <section className="py-16 bg-blue-600 dark:bg-blue-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Intéressé par une collaboration ?</h2>
-          <p className="text-xl text-blue-100 mb-8">N'hésitez pas à me contacter pour discuter de votre projet</p>
+          <p className="text-xl text-blue-100 mb-8">N&apos;hésitez pas à me contacter pour discuter de votre projet</p>
           <Link 
             href="/contact" 
             className="px-8 py-4 bg-white hover:bg-gray-100 text-blue-600 font-medium rounded-md transition-colors text-lg"

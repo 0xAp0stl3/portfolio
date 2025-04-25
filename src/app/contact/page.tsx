@@ -1,4 +1,3 @@
-import Image from 'next/image';
 
 export default function Contact() {
   return (
@@ -9,7 +8,7 @@ export default function Contact() {
           <div className="text-center">
             <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">Contact</h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Vous avez un projet en tête ou une question ? N'hésitez pas à me contacter.
+              Vous avez un projet en tête ou une question ? N&apos;hésitez pas à me contacter.
             </p>
             <div className="w-24 h-1 bg-blue-600 mx-auto mt-8 mb-16"></div>
           </div>
@@ -103,7 +102,7 @@ export default function Contact() {
                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Email</h3>
                     <p className="mt-1 text-gray-600 dark:text-gray-300">apostlepro1@gmail.com</p>
                     <p className="mt-2 text-gray-600 dark:text-gray-300">
-                      N'hésitez pas à m'envoyer un email à tout moment, je vous répondrai dans les plus brefs délais.
+                      N&apos;hésitez pas à m'envoyer un email à tout moment, je vous répondrai dans les plus brefs délais.
                     </p>
                   </div>
                 </div>

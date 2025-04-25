@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 
 export default function About() {
   return (
@@ -31,11 +30,11 @@ export default function About() {
               <p className="text-xl text-blue-600 dark:text-blue-400 mb-6">Étudiant 42</p>
               
               <p className="text-gray-700 dark:text-gray-300 mb-4">
-                Bienvenue sur mon portfolio ! Je suis un étudiant passionné par la cybersécurité, la création d'application et plein d'autres choses.
+                Bienvenue sur mon portfolio ! Je suis un étudiant passionné par la cybersécurité, la création d&apos;application et plein d&apos;autres choses.
               </p>
               
               <p className="text-gray-700 dark:text-gray-300 mb-6">
-                J'adore résoudre des problèmes complexes et transformer des idées en solutions numériques élégantes.
+                J&apos;adore résoudre des problèmes complexes et transformer des idées en solutions numériques élégantes.
                 Mon objectif est de créer des expériences utilisateur exceptionnelles qui allient design attrayant et fonctionnalités robustes.
               </p>
               
@@ -105,8 +104,8 @@ export default function About() {
                       <span className="text-blue-600 dark:text-blue-400 font-semibold">2023 - 2027</span>
                       <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-2">École 42</h3>
                       <p className="mt-4 text-gray-700 dark:text-gray-300">
-                      À l’école 42, on progresse par projets collaboratifs en autonomie, 
-                      sans cours magistraux ni professeurs : on conçoit, code et déploie des applications concrètes tout en s’autoévaluant 
+                      À l&apos;école 42, on progresse par projets collaboratifs en autonomie, 
+                      sans cours magistraux ni professeurs : on conçoit, code et déploie des applications concrètes tout en s&apos;autoévaluant 
                       et en évaluant les autres étudiants. On y acquiert ainsi des compétences techniques (algorithmie, architectures logicielles) 
                       et transverses (gestion de projet, communication, résolution de problèmes).
                       </p>

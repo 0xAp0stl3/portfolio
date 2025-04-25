@@ -1,4 +1,3 @@
-import Image from 'next/image';
 
 export default function Skills() {
   // Données des compétences (normalement, ces données pourraient venir d'une API ou d'un CMS)
@@ -28,7 +27,7 @@ export default function Skills() {
           <div className="text-center">
             <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">Mes compétences</h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Un aperçu des technologies et outils que j'utilise pour créer des applications web modernes et performantes.
+              Un aperçu des technologies et outils que j&apos;utilise pour créer des applications web modernes et performantes.
             </p>
             <div className="w-24 h-1 bg-blue-600 mx-auto mt-8 mb-16"></div>
           </div>
@@ -118,8 +117,8 @@ export default function Skills() {
                     <span className="text-blue-600 dark:text-blue-400 font-medium">2023</span>
                   </div>
                   <p className="mt-4 text-gray-700 dark:text-gray-300">
-                    Certification validant les compétences en pentesting et en sécurité des systèmes d'information.
-                    Certification sur les outils et techniques de test d'intrusion.
+                    Certification validant les compétences en pentesting et en sécurité des systèmes d&apos;information.
+                    Certification sur les outils et techniques de test d&apos;intrusion.
                   </p>
                 </div>
               </div>
@@ -179,7 +178,7 @@ export default function Skills() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path>
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">Travail d'équipe</h3>
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">Travail d&apos;équipe</h3>
               <p className="text-gray-700 dark:text-gray-300">
                 Collaboration efficace au sein d'équipes multidisciplinaires.
               </p>

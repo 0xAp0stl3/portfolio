@@ -4,49 +4,20 @@ export default function Skills() {
   // Données des compétences (normalement, ces données pourraient venir d'une API ou d'un CMS)
   const skillCategories = [
     {
-      name: "Frontend",
-      skills: [
-        { name: "HTML5", level: 95, icon: "/icons/html5.svg" },
-        { name: "CSS3", level: 90, icon: "/icons/css3.svg" },
-        { name: "JavaScript", level: 92, icon: "/icons/javascript.svg" },
-        { name: "TypeScript", level: 85, icon: "/icons/typescript.svg" },
-        { name: "React", level: 90, icon: "/icons/react.svg" },
-        { name: "Next.js", level: 88, icon: "/icons/nextjs.svg" },
-        { name: "Vue.js", level: 80, icon: "/icons/vue.svg" },
-        { name: "Tailwind CSS", level: 92, icon: "/icons/tailwind.svg" }
+      "name": "Compétences techniques",
+      "skills": [
+        { "name": "C", "level": 80 },
+        { "name": "C++", "level": 70 },
+        { "name": "Python", "level": 65 },
+        { "name": "JavaScript", "level": 60 },
+        { "name": "HTML5 & CSS3", "level": 70 },
+        { "name": "SQL (MySQL)", "level": 65 },
+        { "name": "Docker", "level": 52 },
+        { "name": "Git", "level": 90 },
+        { "name": "Linux / Bash", "level": 75 },
+        { "name": "Structures de données & Algorithmes", "level": 60 }
       ]
     },
-    {
-      name: "Backend",
-      skills: [
-        { name: "Node.js", level: 88, icon: "/icons/nodejs.svg" },
-        { name: "Express", level: 85, icon: "/icons/express.svg" },
-        { name: "Python", level: 75, icon: "/icons/python.svg" },
-        { name: "Django", level: 70, icon: "/icons/django.svg" },
-        { name: "PHP", level: 65, icon: "/icons/php.svg" },
-        { name: "GraphQL", level: 78, icon: "/icons/graphql.svg" }
-      ]
-    },
-    {
-      name: "Base de données",
-      skills: [
-        { name: "MongoDB", level: 85, icon: "/icons/mongodb.svg" },
-        { name: "PostgreSQL", level: 80, icon: "/icons/postgresql.svg" },
-        { name: "MySQL", level: 75, icon: "/icons/mysql.svg" },
-        { name: "Firebase", level: 82, icon: "/icons/firebase.svg" }
-      ]
-    },
-    {
-      name: "Outils & Autres",
-      skills: [
-        { name: "Git", level: 90, icon: "/icons/git.svg" },
-        { name: "Docker", level: 75, icon: "/icons/docker.svg" },
-        { name: "AWS", level: 70, icon: "/icons/aws.svg" },
-        { name: "CI/CD", level: 78, icon: "/icons/cicd.svg" },
-        { name: "Jest", level: 80, icon: "/icons/jest.svg" },
-        { name: "Figma", level: 72, icon: "/icons/figma.svg" }
-      ]
-    }
   ];
 
   return (
@@ -119,28 +90,13 @@ export default function Skills() {
                 <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md">
                   <div className="flex justify-between items-start">
                     <div>
-                      <h4 className="text-xl font-semibold text-gray-900 dark:text-white">Master en Informatique</h4>
-                      <p className="text-gray-600 dark:text-gray-400">Université XYZ</p>
+                      <h4 className="text-xl font-semibold text-gray-900 dark:text-white">École 42</h4>
+                      <p className="text-gray-600 dark:text-gray-400">École 42</p>
                     </div>
-                    <span className="text-blue-600 dark:text-blue-400 font-medium">2017 - 2020</span>
+                    <span className="text-blue-600 dark:text-blue-400 font-medium">2023 - Present</span>
                   </div>
                   <p className="mt-4 text-gray-700 dark:text-gray-300">
-                    Spécialisation en développement web et applications mobiles.
-                    Projet de fin d'études sur les technologies JavaScript modernes.
-                  </p>
-                </div>
-                
-                <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md">
-                  <div className="flex justify-between items-start">
-                    <div>
-                      <h4 className="text-xl font-semibold text-gray-900 dark:text-white">Licence en Informatique</h4>
-                      <p className="text-gray-600 dark:text-gray-400">Université ABC</p>
-                    </div>
-                    <span className="text-blue-600 dark:text-blue-400 font-medium">2014 - 2017</span>
-                  </div>
-                  <p className="mt-4 text-gray-700 dark:text-gray-300">
-                    Formation générale en informatique avec des cours en programmation, 
-                    algorithmes, bases de données et réseaux.
+                  Formation générale en informatique avec des cours en programmation, algorithmes, bases de données et réseaux.
                   </p>
                 </div>
               </div>
@@ -156,42 +112,14 @@ export default function Skills() {
                 <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md">
                   <div className="flex justify-between items-start">
                     <div>
-                      <h4 className="text-xl font-semibold text-gray-900 dark:text-white">AWS Certified Developer</h4>
-                      <p className="text-gray-600 dark:text-gray-400">Amazon Web Services</p>
+                      <h4 className="text-xl font-semibold text-gray-900 dark:text-white">Penetration Testing Certification ⚙️ En cours ⚙️</h4>
+                      <p className="text-gray-600 dark:text-gray-400">Hack the Box</p>
                     </div>
                     <span className="text-blue-600 dark:text-blue-400 font-medium">2023</span>
                   </div>
                   <p className="mt-4 text-gray-700 dark:text-gray-300">
-                    Certification validant les compétences en développement et déploiement 
-                    d'applications sur la plateforme AWS.
-                  </p>
-                </div>
-                
-                <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md">
-                  <div className="flex justify-between items-start">
-                    <div>
-                      <h4 className="text-xl font-semibold text-gray-900 dark:text-white">React Developer Certification</h4>
-                      <p className="text-gray-600 dark:text-gray-400">Meta (Facebook)</p>
-                    </div>
-                    <span className="text-blue-600 dark:text-blue-400 font-medium">2022</span>
-                  </div>
-                  <p className="mt-4 text-gray-700 dark:text-gray-300">
-                    Certification avancée sur le développement d'applications avec React, 
-                    incluant les hooks, le state management et les performances.
-                  </p>
-                </div>
-                
-                <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md">
-                  <div className="flex justify-between items-start">
-                    <div>
-                      <h4 className="text-xl font-semibold text-gray-900 dark:text-white">MongoDB Developer</h4>
-                      <p className="text-gray-600 dark:text-gray-400">MongoDB University</p>
-                    </div>
-                    <span className="text-blue-600 dark:text-blue-400 font-medium">2021</span>
-                  </div>
-                  <p className="mt-4 text-gray-700 dark:text-gray-300">
-                    Certification sur la conception, le développement et l'optimisation 
-                    d'applications utilisant MongoDB.
+                    Certification validant les compétences en pentesting et en sécurité des systèmes d'information.
+                    Certification sur les outils et techniques de test d'intrusion.
                   </p>
                 </div>
               </div>

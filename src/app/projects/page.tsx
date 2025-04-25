@@ -29,7 +29,7 @@ export default function Projects() {
       image: '/cub3d.png',
       tags: ['C', 'SDL'],
       github: 'https://github.com/username/cub3d',
-      featured: false
+      featured: true
     },
     {
       id: 'weather-app',
@@ -49,6 +49,15 @@ export default function Projects() {
       tags: ['Next.js', 'Tailwind CSS', 'TypeScript', 'Framer Motion'],
       link: 'https://example.com/portfolio',
       github: 'https://github.com/username/portfolio',
+      featured: false
+    },
+    {
+      id: '42projects',
+      title: 'Projets 42',
+      description: 'Une collection de projets réalisés dans le cadre de ma formation à 42.',
+      image: '/42projet.png',
+      tags: ['C', 'C++', 'Docker', 'Makefile', 'Shell'],
+      github: 'https://github.com/0xAp0stl3/42projet',
       featured: false
     }
   ];

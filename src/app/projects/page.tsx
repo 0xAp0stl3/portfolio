@@ -78,7 +78,7 @@ export default function Projects() {
           <div className="text-center">
             <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">Mes projets</h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Découvrez une sélection de mes travaux récents, allant des sites web aux applications mobiles.
+              Découvrez une sélection de mes travaux récents et de mes projets personnels.
             </p>
             <div className="w-24 h-1 bg-blue-600 mx-auto mt-8 mb-16"></div>
           </div>

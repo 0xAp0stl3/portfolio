@@ -14,7 +14,7 @@ export default function Home() {
                 Bonjour, je suis <span className="text-blue-600 dark:text-blue-400">Matthieu</span>
               </h1>
               <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-                Étudiant en 2eme année de l&apos;école 42, passionné par la cybersécurité et la programmation.
+                Étudiant en 2ème année à l&apos;école 42, passionné par la cybersécurité et la programmation.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link

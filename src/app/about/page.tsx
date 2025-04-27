@@ -15,10 +15,10 @@ export default function About() {
             <div className="relative">
               <div className="aspect-square relative rounded-lg overflow-hidden shadow-xl">
                 <Image
-                  src="/profil.jpeg"
+                  src="/starter_pack.png"
                   alt="Photo de profil"
                   fill
-                  style={{ objectFit: "cover" }}
+                  style={{ objectFit: "contain"}}
                   priority
                 />
               </div>

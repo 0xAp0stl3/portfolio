@@ -30,13 +30,32 @@ export default function About() {
               <p className="text-xl text-blue-600 dark:text-blue-400 mb-6">Étudiant 42</p>
               
               <p className="text-gray-700 dark:text-gray-300 mb-4">
-                Bienvenue sur mon portfolio ! Je suis un étudiant passionné par la cybersécurité, la création d&apos;application et plein d&apos;autres choses.
+                Bienvenue sur mon portfolio ! Je suis un étudiant 42 passionné par la cybersécurité, la création d&apos;application et plein d&apos;autres choses.
               </p>
               
               <p className="text-gray-700 dark:text-gray-300 mb-6">
                 J&apos;adore résoudre des problèmes complexes et transformer des idées en solutions numériques élégantes.
                 Mon objectif est de créer des expériences utilisateur exceptionnelles qui allient design attrayant et fonctionnalités robustes.
               </p>
+
+              <p className="text-gray-700 dark:text-gray-300 mb-6">
+              <span className="font-semibold text-blue-600 dark:text-blue-400">Mais c&apos;est quoi 42&nbsp;?</span> <br />
+              <span className="block mt-2">
+                <span className="font-semibold">École 42</span> est une école innovante, sans cours magistraux ni examens traditionnels. 
+                L&apos;apprentissage repose sur des <span className="font-semibold">projets concrets</span>, le <span className="font-semibold">travail collaboratif</span> et l&apos;<span className="font-semibold">auto-formation</span>.
+              </span>
+              <span className="block mt-4">
+                <span className="font-semibold">Je souhaite me spécialiser en Cybersécurité</span> ce qui me permettra d&apos;acquérir les compétences suivantes&nbsp;:
+                <ul className="list-disc list-inside mt-2 mb-2">
+                  <li>Analyse et remédiation de vulnérabilités (tests d&apos;intrusion, audit de code, revue de configuration)</li>
+                  <li>Mise en place de dispositifs de défense (SIEM, IDS/IPS, pare-feu, segmentation réseau)</li>
+                  <li>Scripting et automatisation pour sécuriser et monitorer des environnements (Bash, Python)</li>
+                  <li>Chiffrement et gestion des clés (protocoles SSL/TLS, PKI)</li>
+                  <li>Réponse aux incidents et forensic (collecte de traces, analyse post-incident)</li>
+                  <li>Sensibilisation et bonnes pratiques (politiques de sécurité, gestion des accès, formation des utilisateurs)</li>
+                </ul>
+              </span>
+            </p>
               
               <div className="grid grid-cols-2 gap-4">
                 <div>
